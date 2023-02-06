@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Library | Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/registration.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/Supreme logo.PNG" alt="Supreme Logo">
+            </div>
+            <div class="nav-links">
+		        <a href="index.html" class="nav-item">Home</a>
+                <a href="about.html" class="nav-item">About</a>
+                <a href="registration.html" class="nav-item">Discover</a>
+                <a href="book.html" class="nav-item">PDP</a>
+                <a href="login.html" class="nav-item">Login</a>
+                <a href="profile.html" class="nav-item">Profile</a>
+                <a href="booklist.html" class="nav-item">Books</a>
+                <button class="call-to-action-btn">Start free Trial</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <h1>Start reading with a 7-day free trial</h1>
+
+    <section class="form-container">
+        <form class="registration-form">
+            <div class="form-header">
+                <p>Step 1 of 2</p>
+                <strong>Create your account <span>(all fields are required)</span></strong>
+            </div>
+            <div class="form-fields">
+
+                <div class="form-field-row">
+                    <label for="fname">First Name</label>
+                    <input type="text">
+                </div>
+                <div class="form-field-row">
+                    <label for="lname">Last Name</label>
+                    <input type="text">
+                </div>
+                
+            </div>
+
+            <div class="form-fields">
+                
+                <div class="form-field-row">
+                    <label for="email">Email</label>
+                    <input type="email">
+                </div>
+                <div class="form-field-row">
+                    <label for="c-email">Confirm Email</label>
+                    <input type="email" required>
+                </div>
+                
+            </div>
+
+            <div class="form-fields">
+                
+                <div class="form-field-row">
+                    <label for="password">Password</label>
+                    <input type="password">
+                    <p>8 or more characters</p>
+                </div>
+                <div class="form-field-row">
+                    <label for="c-password">Password</label>
+                    <input type="password">
+                </div>
+                
+            </div>
+            <button>Create your account</button>
+        </form>
+
+        <form class="registration-form">
+            <div class="form-header">
+                <p>Step 2 of 2</p>
+                <strong>Pick a plan for later <span>(all fields are required)</span></strong>
+            </div>
+
+            <div class="price-plan">
+                <div class="price-option">
+                    <strong>Monthly</strong>
+                    <p>$10 <span>USD</span></p>
+                    <strong>Billed monthly, cancel anytime</strong>
+                </div>
+
+                <div class="price-option">
+                    <strong>Monthly</strong>
+                    <p>$10 <span>USD</span></p>
+                    <strong>Billed annually, cancel anytime</strong>
+                </div>
+            </div>
+            <div class="form-fields">
+
+                <div class="form-field-row">
+                    <label for="name">Cardholder Name</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-field-row">
+                    <label for="c-number">Card Number</label>
+                    <input type="number" required>
+                </div>
+                
+            </div>
+
+            <div class="form-fields">
+                
+                <div class="form-field-row">
+                    <label for="expiration">Expiration Date (MM/YY)</label>
+                    <input type="date" required>
+                </div>
+                <div class="form-field-row">
+                    <label for="cvc">CVC</label>
+                    <input type="number" required>
+                </div>
+                
+            </div>
+
+            <div class="form-fields">
+                
+                <div class="form-field-row">
+                    <label for="country">Country</label>
+                    <input type="text"required>
+                </div>
+                <!-- <p>8 or more characters</p> -->
+                <div class="form-field-row">
+                    <label for="zip-code">Zip Code (5 digit number)</label>
+                    <input type="number"required>
+                </div>
+                
+            </div>
+            <p class="form-footer-text">You will be charged once your free trial expires but no worries, we’ll send you a reminder email three days before. Also, you can cancel anytime.</p>
+
+            <button>Start 7-day free  trial</button>
+
+            <p class="form-footer-text">Your subscription will automatically renew every month/year following the expiry date of your free trial period. Your chosen method of payment will be charged at that time. If you don't want to renew, please cancel before your renewal date using the Cancel Subscription button inside the Account Settings or by emailing help@supreme.edu.net. See our <a href="#">Terms and Conditions</a> for more details.</p>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links-container">
+            <div class="column">
+                <div class="column-header">
+                    <h1>SUPREME</h1>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Pricing</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Supreme for Instructors</a>
+                    <a href="#">Careers</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="column-header">
+                    <h1>BROWSE</h1>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Topics</a>
+                    <a href="#">Reading Lists</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="column-header">
+                    <h1>LEARN</h1>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Architecture</a>
+                    <a href="#">Art</a>
+                    <a href="#">Biological Sciences</a>
+                    <a href="#">Business</a>
+                    <a href="#">Computer Science</a>
+                    <a href="#">Design</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-links">
+                    <a href="#">Economics</a>
+                    <a href="#">Education</a>
+                    <a href="#">History</a>
+                    <a href="#">Languages</a>
+                    <a href="#">Law</a>
+                    <a href="#">Literature</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="footer-links">
+                    <a href="#">Politics</a>
+                    <a href="#">Psychology</a>
+                    <a href="#">Technology</a>
+                    <a href="#">Engineering</a>
+                    <a href="#">Theology</a>
+                </div>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

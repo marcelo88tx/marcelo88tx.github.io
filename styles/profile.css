@@ -1,0 +1,98 @@
+.profile
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.profile-img
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+
+.profile-img > img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right top;
+    border-radius: 20%;
+    
+}
+
+.profile-details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.profile-btn
+{
+    background-color: blue;
+    border: none;
+    padding: 8px 1rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.details-btn
+{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.details-btn:disabled
+{
+    background-color: gainsboro;
+    color: black;
+}
+
+.form-container
+{
+    width: 50%;
+}
+
+form
+{
+    width: 50% !important;
+}
+
+.form-fields
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1287px) 
+{
+   .profile
+   {
+    flex-direction: column;
+   } 
+
+   .form-container
+   {
+    width: 100%;
+   }
+
+   form
+   {
+    width: 100% !important;
+   }
+}

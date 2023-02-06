@@ -1,0 +1,89 @@
+.login-form > .form-fields
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form
+{
+    width: 25%;
+    padding: 3rem 20px;
+}
+
+.form-header
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-header > h1
+{
+    text-align: left;
+    font-size: 35px;
+    padding: 0 40px;
+}
+
+.form-header > p
+{
+    text-align: left;
+    font-size: 20px;
+    padding: 0 40px;
+    font-weight: 600;
+    color: #6b6868;
+}
+
+.check-box
+{
+    gap: 0;
+    width: 50%;
+    justify-content: center;
+}
+
+.check-box > input
+{
+    width: 20%;
+}
+
+.check-box > span
+{
+    width: 90%;
+    color: #6b6868;
+    font-weight: 600;
+}
+
+.google-login
+{
+    display: flex;
+    align-items: center;
+    width: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 20px;
+    padding: 15px 3rem;
+}
+
+.fa-google
+{
+    color: red;
+}
+
+.google-login > p 
+{
+    text-align: center;
+    font-size: 16px;
+    color: #6b6868;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1287px) 
+{
+    .login-form
+    {
+        width: 100%;
+    }
+    .check-box
+    {
+        flex-direction: row;
+    }
+}

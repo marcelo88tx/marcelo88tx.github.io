@@ -1,0 +1,227 @@
+.cards-container
+{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.card
+{
+    height: 100%;
+    background-color: white;
+    width: 30%;
+}
+
+.img-card
+{
+    width: 30%;
+}
+
+.img-card > img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card-body
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.book-title
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+
+strong > span
+{
+    font-weight: 300;
+}
+
+.call-for-action
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-btn
+{
+    background-color: #1C389E;
+    border: none;
+    padding: 20px 0px 20px 10px;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.reviews
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fa-star
+{
+    color:#FD630DE8;
+    cursor: pointer;
+}
+
+.fa-star:nth-child(5)
+{
+    color: #D9D9D9;
+}
+
+.overview
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+p
+{
+    font-size: 20px;
+}
+
+strong
+{
+    font-size: 20px;
+}
+
+.overview > p
+{
+    width: 80%;
+}
+
+span > a
+{
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+}
+
+
+.overview > .reviews > .fa-star
+{
+    color: #D9D9D9;
+    font-size: 30px;
+    align-items: center;
+}
+
+.overview > .reviews
+{
+    align-items: center;
+    justify-content: center;
+}
+
+hr
+{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.card-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 1287px) 
+{
+    .cards-container
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        padding: 20px;
+        height: auto;
+    }
+
+    .card
+    {
+        height:auto;
+        width: 100%;
+    }
+
+    .img-card
+    {
+        width: 100%;
+        border: 2px solid green;
+    }
+
+    .img-card > img 
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-body
+    {
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card-btn
+    {
+        width: auto;
+        font-size: 16px;
+        padding: 10px 0px 10px 5px;
+    }
+
+    .call-for-action
+    {
+        gap: 10px;
+    }
+
+    .reviews
+    {
+        gap: 10px;
+    }
+
+    .overview
+    {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .overview > p 
+    {
+        width: 100%;
+    }
+
+    .card-footer
+    {
+        gap: 10px;
+    }
+    .footer-item, .footer-item > p
+    {
+        font-size: 16px;
+    }
+
+}
